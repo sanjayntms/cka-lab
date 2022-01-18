@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: my-pvc
 spec:
-  storageClassName: k8s-csi-plugin
+  storageClassName: manual
   accessModes:
     - ReadWriteMany
   resources:
